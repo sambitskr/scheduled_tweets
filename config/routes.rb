@@ -13,8 +13,5 @@ Rails.application.routes.draw do
 
   # get "/", to: "main#index" can also be written like below
   root to: "main#index"
-
-
-
   
 end
