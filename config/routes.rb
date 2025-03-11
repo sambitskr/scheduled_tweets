@@ -8,8 +8,8 @@
 Rails.application.routes.draw do
   get "up" => "rails/health#show", as: :rails_health_check
 
-  get "sign_up", to: "registration#new"
-  post "sign_up", to: "registration#create"
+  get "sign_up", to: "registrations#new"
+  post "sign_up", to: "registrations#create"
 
   get "about", to: "about#index"
   # get "about-us", to: "about#index", as: :about 
